@@ -1,0 +1,150 @@
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello,Is anyone there?",
+        "Hello",
+        "Good day"
+      
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Welcome to ticket booking service"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Have a good day",
+        "Have a great rest of the day",
+        "Have a great rest of the evening"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Is there anything else I can help you with?"]
+    },
+    {"tag":"ticket type",
+    "patterns":[
+        "What type of tickets are available?",
+        "How many gold tickets are available?",
+        "How many platinum tickets are available?",
+        "How many silver tickets are available?",
+        "How many gold seats are there?",
+        "How many silver seats are there?",
+        "How many platinum seats are there?"
+      ],
+      "responses":[
+        "Which type of ticket do you want?",
+        "We have platinum,gold and silver seats",
+        "We have 1 gold ticket left",
+        "We have 2 gold tickets",
+        "We have 3 gold tickets",
+        "We have some gold tickets left",
+        "We have 1 platinum ticket left",
+        "We have 2 platinum ticket",
+        "We have 3 platinum ticket",
+        "We have some platinum tickets available",
+        "We have 1 silver ticket left",
+        "We have 2 silver ticket",
+        "We have 3 silver ticket",
+        "We have some silver tickets available"
+      ]
+    },
+    {
+      "tag": "tickets",
+      "patterns": [
+        "what are the ticket prices?",
+        "How many tickets are available?",
+        "Is there a student discount available?",
+        "How many tickets can I book with 100 pounds? "
+      ],
+      "responses": [
+        "Which type of ticket do you want?",
+        "The prices range from 20-50 pounds",
+        "Yes, student discount is available"
+      ]
+    },
+    {
+      "tag": "time slot",
+      "patterns":[
+        "Which time slots are available for movie Mission Impossible?",
+        "Which time slots are available for movie K.G.F 2?",
+        "Which time slots are available for movie Moonfall?",
+        "Which time slots are available for movie The contractor?",
+        "Which time slots are available for movie Ambulance?",
+        "Which time slots are available for movie RRR?",
+        "Which time slots are available for movie The Spiderman?"
+
+      ],
+      "responses":[
+        "The time slot for K.G.F 2  are: ",
+        "The time slot for Moonfall  are: ",
+        "The time slot for The contractor are: ", 
+        "The time slot for Ambulance are: ",             
+        "The time slot for RRR are: ",
+        "The time slot for The Spiderman are:",
+        "The time slot for movie Mission Impossible are:"
+
+      ]
+    },
+    {
+      "tag": "movie type",  
+      "patterns": [
+        "Which movies are being shown?"
+      ],
+      "responses":[
+        "The movies that are being shown are Mission Impossible, K.G.F 2, Moonfall, The contractor, Ambulance, RRR, The Spiderman" ,
+        "Please check your 'Now showing' to view the options of movies" 
+      ]
+    },
+    {
+      "tag":"time",
+      "patterns" : [
+        "What is the starting time for the movie?",
+        "what time should I reach for the movie?"
+
+      ],  
+      "responses": [
+        "The time is mentioned on the ticket",
+        "Please arrive 15 minutes before the mentioned time on the ticket",
+        ""
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit card?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "Which payment options are accepted?"
+      ],
+      "responses":[
+        "We accept both card and cash",
+        "Mastercard is accepted"
+      ]
+    },
+    {
+      "tag": "error",
+      "patterns": [
+        " The payment is not being accepted",
+        "I cannot figure out a way to book the tickets",
+        "The app has crashed after payment",
+        "I completed the booking, but I havent recieved my tickets yet."
+      ],
+    "responses":["Please be patient, I am transferring you to a real agent "]
+    }
+  ]
+}
